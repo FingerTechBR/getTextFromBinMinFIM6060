@@ -1,12 +1,10 @@
-C:\Users\Lincoln\source\repos\getTextFromBinMinFIM6060\getTextFromBinMinFIM6060\bin\Debug\getTextFromBinMinFIM6060.exe.config
-C:\Users\Lincoln\source\repos\getTextFromBinMinFIM6060\getTextFromBinMinFIM6060\bin\Debug\getTextFromBinMinFIM6060.exe
-C:\Users\Lincoln\source\repos\getTextFromBinMinFIM6060\getTextFromBinMinFIM6060\bin\Debug\getTextFromBinMinFIM6060.pdb
-C:\Users\Lincoln\source\repos\getTextFromBinMinFIM6060\getTextFromBinMinFIM6060\obj\Debug\getTextFromBinMinFIM6060.csprojAssemblyReference.cache
 C:\Users\Lincoln\source\repos\getTextFromBinMinFIM6060\getTextFromBinMinFIM6060\obj\Debug\getTextFromBinMinFIM6060.Form1.resources
 C:\Users\Lincoln\source\repos\getTextFromBinMinFIM6060\getTextFromBinMinFIM6060\obj\Debug\getTextFromBinMinFIM6060.Properties.Resources.resources
 C:\Users\Lincoln\source\repos\getTextFromBinMinFIM6060\getTextFromBinMinFIM6060\obj\Debug\getTextFromBinMinFIM6060.csproj.GenerateResource.cache
 C:\Users\Lincoln\source\repos\getTextFromBinMinFIM6060\getTextFromBinMinFIM6060\obj\Debug\getTextFromBinMinFIM6060.csproj.CoreCompileInputs.cache
+C:\Users\Lincoln\source\repos\getTextFromBinMinFIM6060\getTextFromBinMinFIM6060\bin\Debug\getTextFromBinMinFIM6060.exe.config
+C:\Users\Lincoln\source\repos\getTextFromBinMinFIM6060\getTextFromBinMinFIM6060\bin\Debug\getTextFromBinMinFIM6060.exe
+C:\Users\Lincoln\source\repos\getTextFromBinMinFIM6060\getTextFromBinMinFIM6060\bin\Debug\getTextFromBinMinFIM6060.pdb
 C:\Users\Lincoln\source\repos\getTextFromBinMinFIM6060\getTextFromBinMinFIM6060\obj\Debug\getTextFromBinMinFIM6060.exe
 C:\Users\Lincoln\source\repos\getTextFromBinMinFIM6060\getTextFromBinMinFIM6060\obj\Debug\getTextFromBinMinFIM6060.pdb
-C:\Users\Lincoln\source\repos\getTextFromBinMinFIM6060\getTextFromBinMinFIM6060\bin\Debug\NITGEN.SDK.NBioBSP.dll
-C:\Users\Lincoln\source\repos\getTextFromBinMinFIM6060\getTextFromBinMinFIM6060\obj\Debug\getTextFromBinMinFIM6060.csproj.CopyComplete
+C:\Users\Lincoln\source\repos\getTextFromBinMinFIM6060\getTextFromBinMinFIM6060\obj\Debug\getTextFromBinMinFIM6060.csprojAssemblyReference.cache
