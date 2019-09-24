@@ -65,22 +65,12 @@ namespace getTextFromBinMinFIM6060
                 txt_textencode.Enabled = true;
                 bt_converter.Enabled = true;
                 button2.Enabled = true;
-
-
-
-
-            }
-
-
-            
+            }            
         }
 
         private void TextBox1_TextChanged(object sender, EventArgs e)
         {
-
-
-
-
+                                 
         }
 
 
@@ -88,14 +78,23 @@ namespace getTextFromBinMinFIM6060
         private void Button2_Click(object sender, EventArgs e)
         {
                                            
-            if (rb_hv01.Checked)
+            if (rb_hv01.Checked)            
+                importType = NBioAPI.Type.MINCONV_DATA_TYPE.MINCONV_TYPE_FIM01_HV;           
+            else if (rb_ISO.Checked)                
+               importType = NBioAPI.Type.MINCONV_DATA_TYPE.MINCONV_TYPE_ISO;
+                
+         
+            try
             {
-                importType = NBioAPI.Type.MINCONV_DATA_TYPE.MINCONV_TYPE_FIM01_HV;
-            } else if(rb_ISO.Checked)
-            {
-                importType = NBioAPI.Type.MINCONV_DATA_TYPE.MINCONV_TYPE_ISO;
+                 m_Export.FDxToNBioBSPEx(minData, nSize, importType, NBioAPI.Type.FIR_PURPOSE.VERIFY, out processedFIR);
             }
-            uint ret = m_Export.FDxToNBioBSPEx(minData, nSize, importType, NBioAPI.Type.FIR_PURPOSE.VERIFY, out processedFIR);
+            catch(Exception)
+            {               
+                String error = "Formato incompatível ";
+                MessageBox.Show(error);
+                return;
+            }
+            
             NBioAPI.Type.FIR_TEXTENCODE textencode;
             nBioAPI.GetTextFIRFromHandle(processedFIR, out textencode, true);
             txt_textencode.Text = textencode.TextFIR;
